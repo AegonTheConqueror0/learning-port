@@ -29,7 +29,7 @@ export const PavlovSimulator: React.FC = () => {
       // Audio fallback in restrictive environments
     }
   };
-
+// Titeng malagkit oh kay sarap mo 
   const handleTestStep = (stage: number) => {
     setActiveStage(stage);
     if (stage === 2 || stage === 3 || stage === 4) {
