@@ -41,7 +41,7 @@ export const DossierView: React.FC<DossierViewProps> = ({ onSwitchToDeck }) => {
       <section className="border-b border-stone-200 bg-white py-12 px-6">
         <div className="max-w-5xl mx-auto text-center">
           <div className="inline-flex items-center gap-2 text-xs font-mono font-bold text-red-900 uppercase tracking-widest mb-3 px-3 py-1 bg-red-100/80 rounded-full border border-red-300">
-            <span>Group 3 Digital Portfolio</span>
+            <span>Digital Portfolio</span>
           </div>
           <h1 className="text-3xl sm:text-5xl font-black text-stone-900 uppercase font-serif-title tracking-tight leading-tight">
             Behavioral Learning Theory or Association
