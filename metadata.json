@@ -1,0 +1,6 @@
+{
+  "name": "Behavioral Learning Theory Portfolio & Presentation",
+  "description": "An interactive digital presentation portfolio covering Thorndike, Skinner, Pavlov, and Bandura's behavioral learning theories with responsive presentation cards and scrollable deep-dive dossier.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
