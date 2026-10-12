@@ -41,12 +41,31 @@ export const DossierView: React.FC<DossierViewProps> = ({ onSwitchToDeck }) => {
       <section className="border-b border-stone-200 bg-white py-12 px-6">
         <div className="max-w-5xl mx-auto text-center">
           <div className="inline-flex items-center gap-2 text-xs font-mono font-bold text-red-900 uppercase tracking-widest mb-3 px-3 py-1 bg-red-100/80 rounded-full border border-red-300">
-            <GraduationCap className="w-3.5 h-3.5" />
-            <span>Education Student · English Major Teaching Portfolio</span>
+            <span>Group 3 Digital Portfolio</span>
           </div>
           <h1 className="text-3xl sm:text-5xl font-black text-stone-900 uppercase font-serif-title tracking-tight leading-tight">
             Behavioral Learning Theory or Association
           </h1>
+
+          {/* Reporters Display */}
+          <div className="mt-4 flex flex-wrap items-center justify-center gap-2">
+            <span className="text-xs font-mono font-bold uppercase tracking-wider text-red-900 bg-red-100/80 px-2.5 py-1 rounded-lg border border-red-200">
+              Reporters
+            </span>
+            <span className="px-3 py-1 bg-white border border-stone-300 rounded-lg text-xs font-bold text-stone-900 shadow-xs font-heading-display">
+              Jade Christal Bate
+            </span>
+            <span className="px-3 py-1 bg-white border border-stone-300 rounded-lg text-xs font-bold text-stone-900 shadow-xs font-heading-display">
+              Mellin Joyce Z. Ibo
+            </span>
+            <span className="px-3 py-1 bg-white border border-stone-300 rounded-lg text-xs font-bold text-stone-900 shadow-xs font-heading-display">
+              Keen Enderes
+            </span>
+            <span className="px-3 py-1 bg-amber-100/90 border border-amber-300 text-amber-950 text-xs font-mono font-bold rounded-lg shadow-xs">
+              MAED-English
+            </span>
+          </div>
+
           <p className="mt-4 text-sm sm:text-base text-stone-600 max-w-2xl mx-auto leading-relaxed font-medium">
             An in-depth, scrollable academic exploration of the four cornerstone behavioral paradigms:
             <span className="text-red-800 font-bold"> Connectionism</span>,
@@ -67,7 +86,7 @@ export const DossierView: React.FC<DossierViewProps> = ({ onSwitchToDeck }) => {
         </div>
       </section>
 
-      {/* Sticky Chapter Bar */}
+    
       <div className="sticky top-[57px] z-30 bg-[#fdfcf9]/95 border-b border-stone-200 backdrop-blur-md px-6 py-2.5 shadow-xs">
         <div className="max-w-5xl mx-auto flex items-center justify-between gap-4 overflow-x-auto">
           <div className="flex items-center gap-3 sm:gap-6 shrink-0 text-xs font-bold text-stone-600 font-heading-display">
@@ -122,7 +141,7 @@ export const DossierView: React.FC<DossierViewProps> = ({ onSwitchToDeck }) => {
         {/* ========================================================================= */}
         {/* CHAPTER 1: EDWARD LEE THORNDIKE */}
         {/* ========================================================================= */}
-        <section id="chapter-thorndike" className="scroll-mt-24 pt-6 bg-white p-6 sm:p-8 rounded-2xl border-2 border-stone-200 shadow-sm">
+        <section id="chapter-thorndike" className="scroll-mt-24 pt-6 bg-white p-4 sm:p-6 md:p-8 rounded-2xl border-2 border-stone-200 shadow-sm">
           <div className="flex items-center justify-between pb-4 border-b border-stone-200">
             <div>
               <span className="text-xs font-mono font-bold text-red-800 uppercase tracking-wider">
@@ -261,7 +280,7 @@ export const DossierView: React.FC<DossierViewProps> = ({ onSwitchToDeck }) => {
         {/* ========================================================================= */}
         {/* CHAPTER 2: B.F. SKINNER */}
         {/* ========================================================================= */}
-        <section id="chapter-skinner" className="scroll-mt-24 pt-6 bg-white p-6 sm:p-8 rounded-2xl border-2 border-stone-200 shadow-sm">
+        <section id="chapter-skinner" className="scroll-mt-24 pt-6 bg-white p-4 sm:p-6 md:p-8 rounded-2xl border-2 border-stone-200 shadow-sm">
           <div className="flex items-center justify-between pb-4 border-b border-stone-200">
             <div>
               <span className="text-xs font-mono font-bold text-amber-800 uppercase tracking-wider">
@@ -385,7 +404,7 @@ export const DossierView: React.FC<DossierViewProps> = ({ onSwitchToDeck }) => {
         {/* ========================================================================= */}
         {/* CHAPTER 3: IVAN PAVLOV */}
         {/* ========================================================================= */}
-        <section id="chapter-pavlov" className="scroll-mt-24 pt-6 bg-white p-6 sm:p-8 rounded-2xl border-2 border-stone-200 shadow-sm">
+        <section id="chapter-pavlov" className="scroll-mt-24 pt-6 bg-white p-4 sm:p-6 md:p-8 rounded-2xl border-2 border-stone-200 shadow-sm">
           <div className="flex items-center justify-between pb-4 border-b border-stone-200">
             <div>
               <span className="text-xs font-mono font-bold text-emerald-800 uppercase tracking-wider">
@@ -463,7 +482,7 @@ export const DossierView: React.FC<DossierViewProps> = ({ onSwitchToDeck }) => {
         {/* ========================================================================= */}
         {/* CHAPTER 4: ALBERT BANDURA */}
         {/* ========================================================================= */}
-        <section id="chapter-bandura" className="scroll-mt-24 pt-6 bg-white p-6 sm:p-8 rounded-2xl border-2 border-stone-200 shadow-sm">
+        <section id="chapter-bandura" className="scroll-mt-24 pt-6 bg-white p-4 sm:p-6 md:p-8 rounded-2xl border-2 border-stone-200 shadow-sm">
           <div className="flex items-center justify-between pb-4 border-b border-stone-200">
             <div>
               <span className="text-xs font-mono font-bold text-orange-800 uppercase tracking-wider">
@@ -528,7 +547,7 @@ export const DossierView: React.FC<DossierViewProps> = ({ onSwitchToDeck }) => {
         {/* ========================================================================= */}
         {/* CHAPTER 5: SYNTHESIS & MATRIX */}
         {/* ========================================================================= */}
-        <section id="chapter-synthesis" className="scroll-mt-24 pt-6 bg-white p-6 sm:p-8 rounded-2xl border-2 border-stone-200 shadow-sm">
+        <section id="chapter-synthesis" className="scroll-mt-24 pt-6 bg-white p-4 sm:p-6 md:p-8 rounded-2xl border-2 border-stone-200 shadow-sm">
           <div className="flex items-center justify-between pb-4 border-b border-stone-200">
             <div>
               <span className="text-xs font-mono font-bold text-red-800 uppercase tracking-wider">

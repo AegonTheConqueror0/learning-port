@@ -15,6 +15,8 @@ export const SLIDES_DATA: SlideCard[] = [
       data: {
         title: 'BEHAVIORAL LEARNING THEORY OR ASSOCIATION',
         subtitle: 'Digital Portfolio Presentation · Group 3',
+        degree: 'MAED-English',
+        reporters: ['Jade Christal Bate', 'Mellin Joyce Z. Ibo', 'Keen Enderes'],
         description: 'An educational examination of the four foundational cornerstones of associative and behavioral learning psychology: Edward Thorndike, B.F. Skinner, Ivan Pavlov, and Albert Bandura.',
         theorists: [
           {
